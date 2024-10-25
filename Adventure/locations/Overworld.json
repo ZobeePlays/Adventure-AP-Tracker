@@ -1,0 +1,613 @@
+[
+    {
+        "name": "Overworld",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Adjacent to Catacombs",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Adjacent to Catacombs",
+                        "visibility_rules": [""],
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+		],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1870,
+                        "y": 2080,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Black Castle Foyer",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Black Castle Foyer",
+                        "visibility_rules": [""],
+                        "access_rules": ["blackkey"],
+                        "item_count": 1
+                    }
+		],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 370,
+                        "y": 540,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Black Castle Gate",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Black Castle Gate",
+                        "visibility_rules": [""],
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+		],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 360,
+                        "y": 700,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Blue Labyrinth 0",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Blue Labyrinth 0",
+                        "visibility_rules": [""],
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+		],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 80,
+                        "y": 1310,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Blue Labyrinth 1",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Blue Labyrinth 1",
+                        "visibility_rules": [""],
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+		],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 425,
+                        "y": 935,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Catacombs",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Catacombs",
+                        "visibility_rules": [""],
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+		],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1370,
+                        "y": 2085,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Credits Left Side",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "bridge,blackkey"
+                ],
+                "sections": [
+                    {
+                        "name": "Credits Left Side",
+                        "visibility_rules": [""],
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+		],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1680,
+                        "y": 1250,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Credits Right Side",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "bridge,blackkey,magnet"
+                ],
+                "sections": [
+                    {
+                        "name": "Credits Right Side",
+                        "visibility_rules": [""],
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+		],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1830,
+                        "y": 1250,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Dungeon Vault",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Dungeon Vault",
+                        "visibility_rules": [""],
+                        "access_rules": ["blackkey,magnet","blackkey,bridge"],
+                        "item_count": 1
+                    }
+		],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 135,
+                        "y": 357,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Dungeon0",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Dungeon0",
+                        "visibility_rules": [""],
+                        "access_rules": ["blackkey"],
+                        "item_count": 1
+                    }
+		],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 593,
+                        "y": 160,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Dungeon1",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Dungeon1",
+                        "visibility_rules": [""],
+                        "access_rules": ["blackkey"],
+                        "item_count": 1
+                    }
+		],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 240,
+                        "y": 357,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Inside Yellow Castle",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "yellowkey"
+                ],
+                "sections": [
+                    {
+                        "name": "Inside Yellow Castle",
+                        "visibility_rules": [""],
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+		],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1020,
+                        "y": 930,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Northeast of Catacombs",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Northeast of Catacombs",
+                        "visibility_rules": [""],
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+		],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1660,
+                        "y": 1830,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Red Maze Vault",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Red Maze Vault",
+                        "visibility_rules": [""],
+                        "access_rules": ["whitekey"],
+                        "item_count": 1
+                    }
+		],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 713,
+                        "y": 1640,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Red Maze Vault Entrance",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Red Maze Vault Entrance",
+                        "visibility_rules": [""],
+                        "access_rules": ["whitekey,bridge","whitekey,magnet"],
+                        "item_count": 1
+                    }
+		],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 800,
+                        "y": 1400,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "RedMaze0",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "RedMaze0",
+                        "visibility_rules": [""],
+                        "access_rules": ["whitekey"],
+                        "item_count": 1
+                    }
+		],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 720,
+                        "y": 1450,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "RedMaze1",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "RedMaze1",
+                        "visibility_rules": [""],
+                        "access_rules": ["whitekey"],
+                        "item_count": 1
+                    }
+		],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1050,
+                        "y": 1650,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Slay Grundle",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "sword"
+                ],
+                "sections": [
+                    {
+                        "name": "Slay Grundle",
+                        "visibility_rules": [""],
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+		],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 950,
+                        "y": 660,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Slay Rhindle",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "sword"
+                ],
+                "sections": [
+                    {
+                        "name": "Slay Rhindle",
+                        "visibility_rules": [""],
+                        "access_rules": ["blackkey"],
+                        "item_count": 1
+                    }
+		],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1330,
+                        "y": 660,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Slay Yorgle",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "sword"
+                ],
+                "sections": [
+                    {
+                        "name": "Slay Yorgle",
+                        "visibility_rules": [""],
+                        "access_rules": ["whitekey"],
+                        "item_count": 1
+                    }
+		],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1710,
+                        "y": 660,
+                        "size": 50
+                    }
+                ]
+            },
+            {
+                "name": "Southeast of Catacombs",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Southeast of Catacombs",
+                        "visibility_rules": [""],
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+		],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1730,
+                        "y": 2280,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Southwest of Catacombs",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Southwest of Catacombs",
+                        "visibility_rules": [""],
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+		],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1060,
+                        "y": 2254,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "White Castle Gate",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "White Castle Gate",
+                        "visibility_rules": [""],
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+		],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1020,
+                        "y": 1830,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Yellow Castle Gate",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Yellow Castle Gate",
+                        "visibility_rules": [""],
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+		],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1010,
+                        "y": 1015,
+                        "size": 30
+                    }
+                ]
+            }
+        ]
+    }
+]
