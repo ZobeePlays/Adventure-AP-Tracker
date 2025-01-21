@@ -1,0 +1,17 @@
+
+{
+    "name": "Adventure Archipelago Tracker",
+    "game_name": "Adventure",
+    "package_version": "0.9",
+    // "platform": "atari",
+    "package_uid": "adventure_ap",
+    "author": "ZobeePlays",
+    "variants": {
+        "Map Tracker": {
+            "display_name": "Map Tracker",
+            "flags": ["ap"]
+        },
+    },
+    // "versions_url": "my nuts lol",
+    "min_poptracker_version": "0.27.0"
+}
